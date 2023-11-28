@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/depts")
 public class DeptController {
 
-    @Autowired
+    @Autowired//我也能改第一次改
     private DeptService deptService;
 
     //查询全部部门
